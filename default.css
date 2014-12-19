@@ -1,0 +1,325 @@
+body {
+    background-color:#C5CCC7;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+#wrapper {
+    height: 100%;
+}
+#content {
+    background-color:#3D342B; color: white;
+    width: 850px;
+    height: 100%;
+    padding: 30px;
+    margin-right: auto;
+    margin-left: auto;
+}
+#header {
+    margin: 0px;
+    
+}
+h1, h2, h3, h4 {
+    font-family: "Abadi MT Condensed Light", "Arial Narrow", Arial, sans-serif;
+    font-weight: lighter;
+    margin: 0px;
+    padding: 0px;
+}
+h4 {
+    margin-top: 15px;
+    font-style: italic;
+}
+p {
+    font-size: .9em;
+}
+p.pulltext {
+    font-style: italic;
+}
+#heading {
+    float: left;
+}
+#header img {
+    float: right;
+    border: none;
+}
+h2 {
+    margin-bottom: 15px;
+    border-bottom: #888888 1px solid;
+}
+#header h2 {
+    border: none;
+}
+#body, #body-home {
+    clear: both;
+    padding: 20px;
+}
+#body-home {
+    padding-top: 0px;
+}
+#body h2 {
+    margin-top: 10px;
+    font-size: 1.7em;
+}
+a, a:visited {
+    text-decoration: none;
+    color: white;
+}
+a:active, a:hover {
+    text-decoration: underline;
+}
+#footer {
+    clear: both; 
+    border-top: #888888 1px solid;
+    margin-top: 40px;
+    font-family: Arial, sans-serif;
+    height: 5.5em;
+    font-size: .9em;
+}
+#footer a, #footer a:visited {
+    color: white;
+}
+#left-footer {
+    width: 40%;
+    float: left;
+}
+#right-footer {
+    width: 40%;
+    text-align: right;
+    float: right;
+}
+#left {
+    width: 256px; 
+    float: left;
+    padding-right: 10px;
+}
+#right {
+    padding-top: 5px;
+}
+.highlight {
+    padding-top: 20px;
+    padding-bottom: 20px; 
+    clear: both;
+}
+.highlight .image {
+    width: 200px;
+    padding-top: 10px;
+    float: left;
+}
+.highlight .image img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+}
+.highlight .label {
+    padding-top: 20px;
+    padding-left: 200px;
+}
+.highlight .label h3 {
+    border-bottom: #888888 1px solid;
+}
+.highlight .label h3 a:hover {
+    text-decoration: none;
+}
+.highlight .label p {
+    font-size: .8em;
+}
+p.image-credit {
+    font-style: italic;
+}
+
+#map{
+    height: 500px;
+    width: 370px;
+    float: right;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+#map_canvas {
+    height: 500px;
+    width: 350px;
+    float: right;
+}
+#location, #hours, #directions {
+    width: 420px;
+}
+ 
+#hours, #directions {
+        margin-top: 40px;
+
+}
+#highlight-pane {
+    float: right;
+}
+#highlight-text {
+    width: 370px;
+}
+.caption {
+    text-align: left;
+    font-size: 0.8em;
+    font-style: italic;
+    margin: 0px;
+    padding: 0px;
+}
+.highlight-image {
+    padding-bottom: 20px;
+}
+.highlight-image .caption {
+    padding-left: 30px;
+}
+.illustrated-text {
+    clear: both;
+    padding-top: 20px;
+    
+}
+.text-illustration, .text-illustration-borderless {
+    float: left;
+    margin-top: 15px;
+    margin-right: 20px;
+    margin-bottom: auto;
+}
+.text-illustration img {
+    border: #EEEEEE 4px solid;
+    margin: 0px;
+    padding: 0px;
+}
+.text-illustration-borderless img {
+    border: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.illustrated-text p, #highlight-text p, .bibliography li {
+        line-height: 1.3em;
+
+}
+body p a, body p a:visited, .illustrated-text a, .illustrated-text a:visited, .label p a, .label p a:visited, #highlight-text a, #highlight-text a:visited, .bibliography a {
+    text-decoration: none;
+    color: #e0c298;
+}
+body p a:hover, .illustrated-text a:hover, .label p a:hover, #highlight-text a:hover, .bibliography a:hover {
+    text-decoration: underline;
+}
+ul.bibliography {
+    list-style: none;
+    
+}
+ul.bibliography li {
+    margin-top: 1em;
+    font-size: .9em;
+}
+
+.description {
+    padding-left: 215px;
+}
+.description-275 {
+    padding-left: 275px;
+    
+}
+:lang(fr) {    font-style: italic;
+}
+
+
+#here {
+    background-color: #e0c298;
+    text-shadow: none;
+}
+#here a, #here a:visited {
+    color: #444444;
+}
+#here span a, #here span a:visited {
+    color: white;
+}
+
+#menu {
+    width: 850px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+    clear: both;
+}
+#menu div {
+    display: none;
+    width: 19.75%;
+    float: left;
+    border: #888888 1px solid;
+    text-align: center;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-size: 0.8em;
+}
+ul#topnav {
+	margin: 0; padding: 0;
+	float: left;
+	width: 850px;
+	list-style: none;
+	position: relative; /*--Set relative positioning on the unordered list itself - not on the list item--*/
+	font-size: .95em; 
+	
+	/* background: url(topnav_stretch.gif) repeat-x; */
+	background: #555;
+}
+ul#topnav li {
+	float: left; 
+	margin: 0; padding: 0; 
+	margin-left: auto;
+	margin-right: auto;
+	border-right: 1px solid #888888; /*--Divider for each parent level links--*/
+}
+ul#topnav li a {
+	padding: 3px 15px;
+	padding-bottom: 4px;
+	display: block;
+	color: #f0f0f0;
+	text-decoration: none;
+}
+ul#topnav li:hover { background: #896138; }
+/*--Notice the hover color is on the list item itself, not on the link. This is so it can stay highlighted even when hovering over the subnav--*/
+
+ul#topnav li span {
+	text-align: center;
+	padding: 3px 0;
+	padding-bottom: 4px;
+	position: absolute;
+	left: 0; top:24px;
+	display: none; /*--Hide by default--*/
+	width: 850px;
+	background: #896138;
+	color: #fff;
+	/*--Bottom right rounded corner--*/
+	-moz-border-radius-bottomright: 5px;
+	-khtml-border-radius-bottomright: 5px;
+	-webkit-border-bottom-right-radius: 5px;
+	/*--Bottom left rounded corner--*/
+	-moz-border-radius-bottomleft: 5px;
+	-khtml-border-radius-bottomleft: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+}
+ul#topnav li.open {
+    background-color: #896138;
+}
+ul#topnav li.open span {
+    display: block;
+}
+ul#topnav li.open span a#here {
+    color: #444444;
+}
+ul#topnav li:hover span { display: block; } /*--Show subnav on hover--*/
+ul#topnav li span a { display: inline; } /*--Since we declared a link style on the parent list link, we will correct it back to its original state--*/
+ul#topnav li span a:hover {text-decoration: underline;}
+
+.credit {
+    font-style: italic;
+        margin-top: 40px;
+
+}
+.center-illustration {
+    width: 750px;
+        margin-left: auto;
+    margin-right: auto;
+}
+a.addthis_button {
+    color: #e0c298 !important;
+}
